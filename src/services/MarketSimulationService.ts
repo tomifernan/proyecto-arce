@@ -4,9 +4,8 @@ import { config } from "../config/config";
 
 /**
  * ============================================================================
- * PATRÓN TEMPLATE METHOD: Clase Base Abstracta
- * Define el esqueleto del algoritmo de simulación. Los pasos generales son fijos,
- * pero el cálculo específico del precio se delega a las subclases.
+ * PATRÓN TEMPLATE METHOD: cree clase base, luego hice 3 clases que la heredan (RandomMarketSimulation,
+ * BullMarketSimulation, BearMarketSimulation), cada una cambia en que forma se actualizan los precios.
  * ============================================================================
  */
 abstract class MarketSimulationTemplate {

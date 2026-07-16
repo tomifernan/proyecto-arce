@@ -4,8 +4,7 @@ import { config } from "../config/config";
 
 /**
  * ============================================================================
- * PATRÓN STRATEGY: Interfaz Base para las Estrategias de Ordenes
- * Define el contrato que cualquier estrategia de ejecución de orden debe cumplir.
+ * PATRÓN STRATEGY: Elimina los condicionales y centra la logica en las clases.
  * ============================================================================
  */
 interface OrderStrategy {
